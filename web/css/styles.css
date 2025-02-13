@@ -3,6 +3,11 @@ body {
     background-color: white;
 }
 
+#logoTiendaHeader {
+    width: 3%;
+    height: 3%;
+}
+
 #listaInicio li::before {
     content: "🧊 "; 
     margin-right: 0.625rem; 
