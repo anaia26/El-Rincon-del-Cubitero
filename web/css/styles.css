@@ -17,7 +17,17 @@ body {
     list-style: none;
 }
 
+#navegador {
+    background-color: #383838;
+}
+
 #footer {
     min-height: 6.25rem;
     background-color: #383838;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+main {
+    height: 100%;
 }
