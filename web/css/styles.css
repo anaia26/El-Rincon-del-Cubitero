@@ -3,6 +3,10 @@ body {
     background-color: white;
 }
 
+main {
+    height: 70.2vh;
+}
+
 #footer {
     min-height: 6.25rem;
     background-color: #383838;
