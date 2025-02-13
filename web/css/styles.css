@@ -4,8 +4,8 @@ body {
 }
 
 #logoTiendaHeader {
-    width: 3%;
-    height: 3%;
+    width: 3.125rem;/*50px*/
+    height: 3.125rem;/*50px*/
 }
 
 #listaInicio li::before {
@@ -29,7 +29,7 @@ body {
 #footer {
     min-height: 6.25rem;
     background-color: #383838;
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
     width: 100%;
 }
 
