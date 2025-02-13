@@ -8,6 +8,11 @@ body {
     height: 3.125rem;/*50px*/
 }
 
+#enlaceNombreTiendaHeader {
+    color: white;
+    text-decoration: none;
+}
+
 #listaInicio li::before {
     content: "🧊 "; 
     margin-right: 0.625rem; 
