@@ -97,3 +97,30 @@ main {
     color: white;
     background-color: rgb(84, 84, 172);
 }
+
+.btn-cart {
+    background-color: rgb(84, 84, 172);
+    color: white;
+    border: none;
+}
+.btn-cart:hover {
+    background-color: rgb(84, 84, 172, 0.8);
+}
+
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(84, 84, 172);
+}
+
+.price {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: black;
+}
+
+.etiquetaProducto {
+    color: rgb(84, 84, 172);
+    font-weight: bold;
+}
