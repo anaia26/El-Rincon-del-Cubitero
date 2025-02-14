@@ -60,3 +60,7 @@ main {
     max-width: 20rem;
     max-height: 20rem;
 }
+
+.map-container {
+    border: 2px solid black;
+}
