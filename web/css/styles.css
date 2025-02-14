@@ -28,12 +28,26 @@ body {
 }
 
 #navegador {
-    background-color: #383838;
+    background-color: rgb(84, 84, 172);
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+#navegador li a {
+    color: white;
 }
 
 #footer {
     min-height: 6.25rem;
-    background-color: #383838;
+    background-color: rgb(84, 84, 172);
     margin-bottom: 0rem;
     width: 100%;
 }
