@@ -124,3 +124,11 @@ main {
     color: rgb(84, 84, 172);
     font-weight: bold;
 }
+
+.custom-table {
+    border: 0.3125rem solid rgb(84, 84, 172); 
+}
+
+.custom-table td,.custom-table th {
+    border: 0.3125rem solid rgb(84, 84, 172); 
+}
