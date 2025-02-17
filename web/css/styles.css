@@ -65,11 +65,11 @@ main {
     border: 0.3125rem solid rgb(84, 84, 172);
 }
 
-.map-container iframe {
+/*.map-container iframe {
     width: 100%; 
     height: 25rem; 
     border: 0; 
-}
+}*/
 
 .form-container {
     max-width: 37.5rem;
