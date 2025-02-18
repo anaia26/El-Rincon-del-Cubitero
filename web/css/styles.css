@@ -178,3 +178,39 @@ controles del carrusel en el centro.*/
     top: 45%;
     right: 1%;
 }
+
+/*Poner tamaño (anchura y altura), color de fondo semitransparente, borde redondeado, relleno a los dos controles del carrusel y poner los 
+controles del carrusel en el centro.*/
+#carouselProductosResponsive .carousel-control-prev, .carousel-control-next {
+    width: 2.5rem;/*40px*/
+    height: 2.5rem;/*40px*/
+    background-color: rgb(84, 84, 172, 0.5);
+    border-radius: 50%;
+    padding: 0.625rem;/*10px*/
+    transform: translateY(-50%);
+}
+
+/*Cambiar el color de los controles del carrusel cuando se pasa el ratón por encima*/
+#carouselProductosResponsive .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgb(84, 84, 172);
+}
+
+/*Poner tamaño de letra a los iconos del carrusel "<,>" y altura de línea para evitar que los iconos se desplacen.*/
+#carouselProductosResponsive .carousel-control-prev span, .carousel-control-next span {
+    font-size: 1.875rem; /*30px*/
+    line-height: 1;
+}
+
+/*Poner a la izquierda el control anterior del carrusel.*/
+#carouselProductosResponsive .carousel-control-prev {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+}
+
+/*Poner a la derecha el control siguiente del carrusel.*/
+#carouselProductosResponsive .carousel-control-next {
+    position: absolute;
+    top: 45%;
+    right: 1%;
+}
