@@ -64,11 +64,12 @@
                     <tr>
                         <td>
                             <!-- Carousel de productos -->
-                            <div id="carouselProductos" class="carousel slide d-none d-md-block" data-bs-ride="false">
+                            <div id="carouselProductos" class="carousel slide d-none d-lg-block" data-bs-ride="false">
                                 <!-- Indicadores de las imágenes -->
                                 <div class="carousel-indicators mt-4">
                                     <button name="indicadorProducto1" type="button" data-bs-target="#carouselProductos"
-                                        data-bs-slide-to="0" aria-label="Imagen indicador producto 1" class="active"></button>
+                                        data-bs-slide-to="0" aria-label="Imagen indicador producto 1"
+                                        class="active"></button>
                                     <button name="indicadorProducto2" type="button" data-bs-target="#carouselProductos"
                                         data-bs-slide-to="1" aria-label="Imagen indicador producto 2"></button>
                                     <button name="indicadorProducto3" type="button" data-bs-target="#carouselProductos"
@@ -191,43 +192,54 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Botones de control -->
-                                    <button
-                                        name="carruselAnterior" class="carousel-control-prev d-flex justify-content-center align-items-center d-none d-md-block"
-                                        type="button" data-bs-target="#carouselProductos" data-bs-slide="prev" aria-label="Imagen carrusel anterior">
-                                        <span class="carousel-control-prev-icon"></span>
-                                    </button>
-                                    <button
-                                        name="carruselSiguiente" class="carousel-control-next d-flex justify-content-center align-items-center d-none d-md-block"
-                                        type="button" data-bs-target="#carouselProductos" data-bs-slide="next" aria-label="Imagen carrusel siguiente">
-                                        <span class="carousel-control-next-icon"></span>
-                                    </button>
                                 </div>
                             </div>
+                            <!-- Botones de control -->
+                            <button name="carruselAnterior"
+                                class="carousel-control-prev d-flex justify-content-center align-items-center d-none d-md-block"
+                                type="button" data-bs-target="#carouselProductos" data-bs-slide="prev"
+                                aria-label="Imagen carrusel anterior">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button name="carruselSiguiente"
+                                class="carousel-control-next d-flex justify-content-center align-items-center d-none d-md-block"
+                                type="button" data-bs-target="#carouselProductos" data-bs-slide="next"
+                                aria-label="Imagen carrusel siguiente">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
 
                             <!-- Carousel responsive -->
-                            <div id="carouselProductosResponsive" class="carousel slide d-block d-md-none"
+                            <div id="carouselProductosResponsive" class="carousel slide d-block d-lg-none"
                                 data-bs-ride="false">
                                 <!-- Indicadores de las imágenes -->
                                 <div class="carousel-indicators mt-4">
-                                    <button name="indicadorProductoResponsive1" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="0" aria-label="Imagen indicador producto responsive 1" class="active"></button>
-                                    <button name="indicadorProductoResponsive2" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="1" aria-label="Imagen indicador producto responsive 2"></button>
-                                    <button name="indicadorProductoResponsive3" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="2" aria-label="Imagen indicador producto responsive 3"></button>
-                                    <button name="indicadorProductoResponsive4" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="3" aria-label="Imagen indicador producto responsive 4"></button>
-                                    <button name="indicadorProductoResponsive5" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="4" aria-label="Imagen indicador producto responsive 5"></button>
-                                    <button name="indicadorProductoResponsive6" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="5" aria-label="Imagen indicador producto responsive 6"></button>
-                                    <button name="indicadorProductoResponsive7" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="6" aria-label="Imagen indicador producto responsive 7"></button>
-                                    <button name="indicadorProductoResponsive8" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="7" aria-label="Imagen indicador producto responsive 8"></button>
-                                    <button name="indicadorProductoResponsive9" type="button" data-bs-target="#carouselProductosResponsive"
-                                        data-bs-slide-to="8" aria-label="Imagen indicador producto responsive 9"></button>
+                                    <button name="indicadorProductoResponsive1" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="0"
+                                        aria-label="Imagen indicador producto responsive 1" class="active"></button>
+                                    <button name="indicadorProductoResponsive2" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="1"
+                                        aria-label="Imagen indicador producto responsive 2"></button>
+                                    <button name="indicadorProductoResponsive3" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="2"
+                                        aria-label="Imagen indicador producto responsive 3"></button>
+                                    <button name="indicadorProductoResponsive4" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="3"
+                                        aria-label="Imagen indicador producto responsive 4"></button>
+                                    <button name="indicadorProductoResponsive5" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="4"
+                                        aria-label="Imagen indicador producto responsive 5"></button>
+                                    <button name="indicadorProductoResponsive6" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="5"
+                                        aria-label="Imagen indicador producto responsive 6"></button>
+                                    <button name="indicadorProductoResponsive7" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="6"
+                                        aria-label="Imagen indicador producto responsive 7"></button>
+                                    <button name="indicadorProductoResponsive8" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="7"
+                                        aria-label="Imagen indicador producto responsive 8"></button>
+                                    <button name="indicadorProductoResponsive9" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="8"
+                                        aria-label="Imagen indicador producto responsive 9"></button>
                                 </div>
                                 <!-- Imágenes del carousel -->
                                 <div class="carousel-inner">
@@ -445,14 +457,16 @@
                                 </div>
                             </div>
                             <!-- Botones de control -->
-                            <button
-                                name="carruselResponsiveAnterior" class="carousel-control-prev d-flex justify-content-center align-items-center d-block d-md-none"
-                                type="button" data-bs-target="#carouselProductosResponsive" data-bs-slide="prev" aria-label="Imagen anterior en carrusel responsive">
+                            <button name="carruselResponsiveAnterior"
+                                class="carousel-control-prev d-flex justify-content-center align-items-center d-block d-md-none"
+                                type="button" data-bs-target="#carouselProductosResponsive" data-bs-slide="prev"
+                                aria-label="Imagen anterior en carrusel responsive">
                                 <span class="carousel-control-prev-icon"></span>
                             </button>
-                            <button
-                                name="carruselResponsiveSiguiente" class="carousel-control-next d-flex justify-content-center align-items-center d-block d-md-none"
-                                type="button" data-bs-target="#carouselProductosResponsive" data-bs-slide="next" aria-label="Imagen siguiente en carrusel responsive">
+                            <button name="carruselResponsiveSiguiente"
+                                class="carousel-control-next d-flex justify-content-center align-items-center d-block d-md-none"
+                                type="button" data-bs-target="#carouselProductosResponsive" data-bs-slide="next"
+                                aria-label="Imagen siguiente en carrusel responsive">
                                 <span class="carousel-control-next-icon"></span>
                             </button>
                         </td>

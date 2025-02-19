@@ -205,12 +205,10 @@ controles del carrusel en el centro.*/
 #carouselProductosResponsive .carousel-control-prev {
     position: absolute;
     top: 45%;
-    left: 1%;
 }
 
 /*Poner a la derecha el control siguiente del carrusel.*/
 #carouselProductosResponsive .carousel-control-next {
     position: absolute;
     top: 45%;
-    right: 1%;
 }
