@@ -204,11 +204,18 @@ controles del carrusel en el centro.*/
 /*Poner a la izquierda el control anterior del carrusel.*/
 #carouselProductosResponsive .carousel-control-prev {
     position: absolute;
-    top: 45%;
+    top: 50%;
 }
 
 /*Poner a la derecha el control siguiente del carrusel.*/
 #carouselProductosResponsive .carousel-control-next {
     position: absolute;
-    top: 45%;
+    top: 50%;
+}
+
+button.carousel-control-next, button.carousel-control-prev {
+    top: 50%;
+}
+span.carousel-control-next {
+    margin-right: 10px;
 }
