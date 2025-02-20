@@ -219,3 +219,11 @@ button.carousel-control-next, button.carousel-control-prev {
 span.carousel-control-next {
     margin-right: 10px;
 }
+
+#enlaceMapaWeb {
+    text-decoration: none;
+}
+
+#enlaceMapaWeb:hover {
+    text-decoration: underline;
+}
