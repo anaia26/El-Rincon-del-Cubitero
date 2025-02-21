@@ -247,3 +247,12 @@ span.carousel-control-next {
 .navegacionMapaWeb:hover {
     text-decoration: underline;
 }
+
+.carousel-inner a {
+color: rgb(84, 84, 172);
+}
+
+.carousel-inner a:hover {
+    font-size: 2.2rem;
+    cursor: pointer;
+}
