@@ -274,3 +274,24 @@ text-decoration: none;
 #enlaces li a:hover {
     color: rgb(84, 84, 172,0.8);
 }
+
+/*Poner color de letra y eliminar subrayado a los elementos que tienen la clase .enlaceLila.*/
+.enlaceLila {
+    color: #5454AC;
+    text-decoration: none;
+}
+
+/*Poner subrayado a los elementos que tienen la clase .enlaceLila cuando se pasa el ratón por encima.*/
+.enlaceLila:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb .active {
+    color: #5454AC;
+}
+
+/*Agregar antes ">" y ponerle color a los separadores de las migas de pan pero no lo agrega antes del primer elemento de las migas de pan.*/
+.breadcrumb-item + .breadcrumb-item::before {
+    content: " > ";
+    color: #5454AC;
+}
