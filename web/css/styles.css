@@ -258,3 +258,11 @@ text-decoration: none;
     cursor: pointer;
     text-decoration: none;
 }
+
+#registrateAqui {
+    color: rgb(84, 84, 172);
+}
+
+#registrateAqui:hover {
+    color: rgb(84, 84, 172, 0.8);
+}
