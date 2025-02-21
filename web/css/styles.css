@@ -266,3 +266,11 @@ text-decoration: none;
 #registrateAqui:hover {
     color: rgb(84, 84, 172, 0.8);
 }
+
+#enlaces li a {
+    color: rgb(84, 84, 172);
+}
+
+#enlaces li a:hover {
+    color: rgb(84, 84, 172,0.8);
+}
