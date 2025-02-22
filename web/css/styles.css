@@ -296,3 +296,10 @@ text-decoration: none;
     content: " > ";
     color: #5454AC;
 }
+
+/*Mantenemos el ancho en 75% con un ajuste automático de la altura y evitamos deformaciones de relación con object-fit:cover*/
+#fotoPerfil1 {
+    width: 75%;  
+    height: auto;  
+    object-fit: cover; 
+}
