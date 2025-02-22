@@ -19,18 +19,22 @@
         <nav id="navegador" class="navbar navbar-expand-md">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-center">
-                    <a href="../html/index.html"><img src="../img/logo_pestanha.webp" alt="Logo de la tienda" id="logoTiendaHeader" class="ms-4 my-2"></a>
-                    <p class="text-white mt-3 ms-4"><a title="El Rincón del Cubitero" href="../html/index.html" id="enlaceNombreTiendaHeader">El Rincón del Cubitero</a></p>
+                    <a href="../html/index.html"><img src="../img/logo_pestanha.webp" alt="Logo de la tienda"
+                            id="logoTiendaHeader" class="ms-4 my-2"></a>
+                    <p class="text-white mt-3 ms-4"><a title="El Rincón del Cubitero" href="../html/index.html"
+                            id="enlaceNombreTiendaHeader">El Rincón del Cubitero</a></p>
                 </div>
                 <div class="d-flex justify-content-center ms-4">
-                    <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse me-3" id="navbarNav">
                         <ul class="navbar-nav d-flex justify-content-center">
                             <li class="nav-item mx-3">
-                                <a title="Inicio" class="nav-link active" aria-current="page" href="../html/index.html">Inicio</a>
+                                <a title="Inicio" class="nav-link active" aria-current="page"
+                                    href="../html/index.html">Inicio</a>
                             </li>
                             <li class="nav-item mx-3 active">
                                 <a title="Productos" class="nav-link active" aria-current="page"
@@ -46,7 +50,8 @@
                                 <a title="Login" class="nav-link active" href="../html/login.html">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a title="Carrito" href="../html/login.html"><img src="../img/carro-de-la-compra.webp" alt="Logo de carrito" id="logoCarritoHeader" class="ms-3 my-1"></a>
+                                <a title="Carrito" href="../html/login.html"><img src="../img/carro-de-la-compra.webp"
+                                        alt="Logo de carrito" id="logoCarritoHeader" class="ms-3 my-1"></a>
                             </li>
                         </ul>
                     </div>
@@ -54,366 +59,364 @@
             </div>
         </nav>
     </header>
-
+    <div class="container d-flex justify-content-start pt-4 pb-4 mt-4">
+        <nav aria-label="breadcrumb row">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a title="Inicio" aria-label="Inicio" href="../html/index.html" class="enlaceLila"><i class="bi bi-house-door-fill"></i></a></li>
+                <li class="breadcrumb-item active text-decoration-underline" aria-current="page">Productos</li>
+            </ol>
+        </nav>
+    </div>
     <main class="mt-5 ms-4 me-4">
         <div class="container">
-            <nav aria-label="breadcrumb row">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a title="Inicio" aria-label="Inicio" href="../html/index.html" class="enlaceLila"><i
-                                class="bi bi-house-door-fill"></i></a></li>
-                    <li class="breadcrumb-item active text-decoration-underline" aria-current="page">Productos</a></li>
-                </ol>
-                <table class="table custom-table">
-                    <thead id="idThead">
-                        <tr>
-                            <th class="text-center">Nuestros Productos</th>
-                        </tr>
-                    </thead>
-                    <tbody class="imagenProducto">
-                        <tr>
-                            <td>
-                                <!-- Carousel de productos -->
-                                <div id="carouselProductos" class="carousel slide d-none d-lg-block"
-                                    data-bs-ride="false">
-                                    <!-- Indicadores de las imágenes -->
-                                    <div class="carousel-indicators mt-4">
-                                        <button name="indicadorProducto1" type="button"
-                                            data-bs-target="#carouselProductos" data-bs-slide-to="0"
-                                            aria-label="Imagen indicador producto 1" class="active"></button>
-                                        <button name="indicadorProducto2" type="button"
-                                            data-bs-target="#carouselProductos" data-bs-slide-to="1"
-                                            aria-label="Imagen indicador producto 2"></button>
-                                        <button name="indicadorProducto3" type="button"
-                                            data-bs-target="#carouselProductos" data-bs-slide-to="2"
-                                            aria-label="Imagen indicador producto 3"></button>
+            <table class="table custom-table">
+                <thead id="idThead">
+                    <tr>
+                        <th class="text-center">Nuestros Productos</th>
+                    </tr>
+                </thead>
+                <tbody class="imagenProducto">
+                    <tr>
+                        <td>
+                            <!-- Carousel de productos -->
+                            <div id="carouselProductos" class="carousel slide d-none d-lg-block" data-bs-ride="false">
+                                <!-- Indicadores de las imágenes -->
+                                <div class="carousel-indicators mt-4">
+                                    <button name="indicadorProducto1" type="button" data-bs-target="#carouselProductos"
+                                        data-bs-slide-to="0" aria-label="Imagen indicador producto 1"
+                                        class="active"></button>
+                                    <button name="indicadorProducto2" type="button" data-bs-target="#carouselProductos"
+                                        data-bs-slide-to="1" aria-label="Imagen indicador producto 2"></button>
+                                    <button name="indicadorProducto3" type="button" data-bs-target="#carouselProductos"
+                                        data-bs-slide-to="2" aria-label="Imagen indicador producto 3"></button>
+                                </div>
+                                <!-- Imágenes del carousel -->
+                                <div class="carousel-inner">
+                                    <!-- Slide 1 -->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-4 text-center">
+                                                <a href="../html/detalle_producto.html">
+                                                    <img src="../img/cubo3x3.webp" alt="Imagen cubo 3x3"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="../html/detalle_producto.html">Qiyi Warrior W 3x3x3</a>
+                                                </h2>
+                                                <p>Cubo de rubik low cost pero con un rendimiento bastante elevado.
+                                                </p>
+                                                <p class="fw-bold">4.95 €</p>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4 text-center">
+                                                <a href="../html/detalle_producto_2.html">
+                                                    <img src="../img/cuboPyraminx.webp" alt="Imagen cubo pyraminx"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="../html/detalle_producto_2.html">Qiyi Pyraminx S 2</a>
+                                                </h2>
+                                                <p>Cubo de versión actualizada con mejoras para speedsolving.</p>
+                                                <p class="fw-bold">7.50 €</p>
+                                            </div>
+                                            <div class="col-12 col-lg-4 text-center">
+                                                <a href="../html/detalle_producto_3.html">
+                                                    <img src="../img/cuboMegaminx.webp" alt="Imagen cubo Megaminx"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="../html/detalle_producto_3.html">Qiyi Megaminx S</a>
+                                                </h2>
+                                                <p>Cubo con muchas características modernas; una de las mejores
+                                                    opciones.</p>
+                                                <p class="fw-bold">9.50 €</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- Imágenes del carousel -->
-                                    <div class="carousel-inner">
-                                        <!-- Slide 1 -->
-                                        <div class="carousel-item active">
-                                            <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-4 text-center">
-                                                    <a href="../html/detalle_producto.html">
-                                                        <img src="../img/cubo3x3.webp" alt="Imagen cubo 3x3"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="../html/detalle_producto.html">Qiyi Warrior W 3x3x3</a>
-                                                    </h2>
-                                                    <p>Cubo de rubik low cost pero con un rendimiento bastante elevado.
-                                                    </p>
-                                                    <p class="fw-bold">4.95 €</p>
-                                                </div>
-                                                <div class="col-12 col-md-6 col-lg-4 text-center">
-                                                    <a href="../html/detalle_producto_2.html">
-                                                        <img src="../img/cuboPyraminx.webp" alt="Imagen cubo pyraminx"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="../html/detalle_producto_2.html">Qiyi Pyraminx S 2</a>
-                                                    </h2>
-                                                    <p>Cubo de versión actualizada con mejoras para speedsolving.</p>
-                                                    <p class="fw-bold">7.50 €</p>
-                                                </div>
-                                                <div class="col-12 col-lg-4 text-center">
-                                                    <a href="../html/detalle_producto_3.html">
-                                                        <img src="../img/cuboMegaminx.webp" alt="Imagen cubo Megaminx"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="../html/detalle_producto_3.html">Qiyi Megaminx S</a>
-                                                    </h2>
-                                                    <p>Cubo con muchas características modernas; una de las mejores
-                                                        opciones.</p>
-                                                    <p class="fw-bold">9.50 €</p>
-                                                </div>
+                                    <!-- Slide 2 -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-4 text-center">
+                                                <a href="https://www.juegosbesa.com/es/4x4x4/2699-qiyi-qiyuan-s3-4x4.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-qiyuan-s3-4x4.webp" alt="Imagen cubo 4x4"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/4x4x4/2699-qiyi-qiyuan-s3-4x4.html"
+                                                        target="_blank">Qiyi Qiyuan S3 4x4</a></h2>
+                                                <p>Versión actualizada de se famoso 4x4 stickerless.</p>
+                                                <p class="fw-bold">8.95 €</p>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-4 text-center">
+                                                <a href="https://www.juegosbesa.com/es/cubos-de-rubik/1702-qiyi-magnetic-clock.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-magnetic-clock.webp" alt="Imagen clock"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/cubos-de-rubik/1702-qiyi-magnetic-clock.html"
+                                                        target="_blank">Qiyi Magnetic Clock</a></h2>
+                                                <p>El esperado Clock de Qiyi ha llegado para convertirse en el rey
+                                                    de la
+                                                    categoría.</p>
+                                                <p class="fw-bold">29.95 €</p>
+                                            </div>
+                                            <div class="col-12 col-lg-4 text-center">
+                                                <a href="https://www.juegosbesa.com/es/2x2x2/2839-qiyi-m-pro-2x2.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-m-pro-2x2.webp" alt="Imagen cubo 2x2"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/2x2x2/2839-qiyi-m-pro-2x2.html"
+                                                        target="_blank">Qiyi M Pro 2x2</a></h2>
+                                                <p>Es una obra maestra diseñada para poner a prueba tu rapidez.</p>
+                                                <p class="fw-bold">7.95 €</p>
                                             </div>
                                         </div>
-                                        <!-- Slide 2 -->
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-4 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/4x4x4/2699-qiyi-qiyuan-s3-4x4.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-qiyuan-s3-4x4.webp" alt="Imagen cubo 4x4"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/4x4x4/2699-qiyi-qiyuan-s3-4x4.html"
-                                                            target="_blank">Qiyi Qiyuan S3 4x4</a></h2>
-                                                    <p>Versión actualizada de se famoso 4x4 stickerless.</p>
-                                                    <p class="fw-bold">8.95 €</p>
-                                                </div>
-                                                <div class="col-12 col-md-6 col-lg-4 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/cubos-de-rubik/1702-qiyi-magnetic-clock.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-magnetic-clock.webp" alt="Imagen clock"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/cubos-de-rubik/1702-qiyi-magnetic-clock.html"
-                                                            target="_blank">Qiyi Magnetic Clock</a></h2>
-                                                    <p>El esperado Clock de Qiyi ha llegado para convertirse en el rey
-                                                        de la
-                                                        categoría.</p>
-                                                    <p class="fw-bold">29.95 €</p>
-                                                </div>
-                                                <div class="col-12 col-lg-4 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/2x2x2/2839-qiyi-m-pro-2x2.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-m-pro-2x2.webp" alt="Imagen cubo 2x2"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/2x2x2/2839-qiyi-m-pro-2x2.html"
-                                                            target="_blank">Qiyi M Pro 2x2</a></h2>
-                                                    <p>Es una obra maestra diseñada para poner a prueba tu rapidez.</p>
-                                                    <p class="fw-bold">7.95 €</p>
-                                                </div>
+                                    </div>
+                                    <!-- Slide 3 -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-4 text-center">
+                                                <a href="https://www.juegosbesa.com/es/1x1x1/2015-qiyi-o2-1x1x1.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-o2-1x1x1.webp" alt="Imagen cubo 1x1"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/1x1x1/2015-qiyi-o2-1x1x1.html"
+                                                        target="_blank">Qiyi O2 1x1x1</a></h2>
+                                                <p>El Qiyi O2 es un cubo 1x1x1 con intercambio de centros fácil de
+                                                    resolver.</p>
+                                                <p class="fw-bold">5.95 €</p>
                                             </div>
-                                        </div>
-                                        <!-- Slide 3 -->
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-4 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/1x1x1/2015-qiyi-o2-1x1x1.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-o2-1x1x1.webp" alt="Imagen cubo 1x1"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/1x1x1/2015-qiyi-o2-1x1x1.html"
-                                                            target="_blank">Qiyi O2 1x1x1</a></h2>
-                                                    <p>El Qiyi O2 es un cubo 1x1x1 con intercambio de centros fácil de
-                                                        resolver.</p>
-                                                    <p class="fw-bold">5.95 €</p>
-                                                </div>
-                                                <div class="col-12 col-md-6 col-lg-4 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/mirror/278-qiyi-mirror-3x3-plata.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-mirror-3x3-plata.webp"
-                                                            alt="Imagen cubo 3x3 mirror" class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/mirror/278-qiyi-mirror-3x3-plata.html"
-                                                            target="_blank">Qiyi Mirror 3x3 Plata</a></h2>
-                                                    <p>El famoso Mirror aterriza de la mano del coloso Qiyi.</p>
-                                                    <p class="fw-bold">6.90€</p>
-                                                </div>
-                                                <div class="col-12 col-lg-4 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/cubos-especiales/202-qiyi-skewb-qicheng-stickerless.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-skewb-qicheng-stickerless.webp"
-                                                            alt="Imagen cubo skewb" class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/cubos-especiales/202-qiyi-skewb-qicheng-stickerless.html"
-                                                            target="_blank">Qiyi Skewb Stickerless</a></h2>
-                                                    <p>Destaca por su gran fluidez en movimientos y también por sus
-                                                        colores
-                                                        vivos.</p>
-                                                    <p class="fw-bold">7.50 €</p>
-                                                </div>
+                                            <div class="col-12 col-md-6 col-lg-4 text-center">
+                                                <a href="https://www.juegosbesa.com/es/mirror/278-qiyi-mirror-3x3-plata.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-mirror-3x3-plata.webp"
+                                                        alt="Imagen cubo 3x3 mirror" class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/mirror/278-qiyi-mirror-3x3-plata.html"
+                                                        target="_blank">Qiyi Mirror 3x3 Plata</a></h2>
+                                                <p>El famoso Mirror aterriza de la mano del coloso Qiyi.</p>
+                                                <p class="fw-bold">6.90€</p>
+                                            </div>
+                                            <div class="col-12 col-lg-4 text-center">
+                                                <a href="https://www.juegosbesa.com/es/cubos-especiales/202-qiyi-skewb-qicheng-stickerless.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-skewb-qicheng-stickerless.webp"
+                                                        alt="Imagen cubo skewb" class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/cubos-especiales/202-qiyi-skewb-qicheng-stickerless.html"
+                                                        target="_blank">Qiyi Skewb Stickerless</a></h2>
+                                                <p>Destaca por su gran fluidez en movimientos y también por sus
+                                                    colores
+                                                    vivos.</p>
+                                                <p class="fw-bold">7.50 €</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Botones de control -->
-                                <button name="carruselAnterior"
-                                    class="carousel-control-prev d-flex justify-content-center align-items-center d-none d-lg-flex"
-                                    type="button" data-bs-target="#carouselProductos" data-bs-slide="prev"
-                                    aria-label="Imagen carrusel anterior" title="Anterior">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
+                            </div>
+                            <!-- Botones de control -->
+                            <button name="carruselAnterior"
+                                class="carousel-control-prev d-flex justify-content-center align-items-center d-none d-lg-flex"
+                                type="button" data-bs-target="#carouselProductos" data-bs-slide="prev"
+                                aria-label="Imagen carrusel anterior" title="Anterior">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </button>
 
-                                <button name="carruselSiguiente"
-                                    class="carousel-control-next d-flex justify-content-center align-items-center d-none d-lg-flex"
-                                    type="button" data-bs-target="#carouselProductos" data-bs-slide="next"
-                                    aria-label="Imagen carrusel siguiente" title="Siguiente">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </button>
-                                <!-- Carousel responsive -->
-                                <div id="carouselProductosResponsive" class="carousel slide d-block d-lg-none"
-                                    data-bs-ride="false">
-                                    <!-- Indicadores de las imágenes -->
-                                    <div class="carousel-indicators mt-4">
-                                        <button name="indicadorProductoResponsive1" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="0"
-                                            aria-label="Imagen indicador producto responsive 1" class="active"></button>
-                                        <button name="indicadorProductoResponsive2" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="1"
-                                            aria-label="Imagen indicador producto responsive 2"></button>
-                                        <button name="indicadorProductoResponsive3" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="2"
-                                            aria-label="Imagen indicador producto responsive 3"></button>
-                                        <button name="indicadorProductoResponsive4" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="3"
-                                            aria-label="Imagen indicador producto responsive 4"></button>
-                                        <button name="indicadorProductoResponsive5" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="4"
-                                            aria-label="Imagen indicador producto responsive 5"></button>
-                                        <button name="indicadorProductoResponsive6" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="5"
-                                            aria-label="Imagen indicador producto responsive 6"></button>
-                                        <button name="indicadorProductoResponsive7" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="6"
-                                            aria-label="Imagen indicador producto responsive 7"></button>
-                                        <button name="indicadorProductoResponsive8" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="7"
-                                            aria-label="Imagen indicador producto responsive 8"></button>
-                                        <button name="indicadorProductoResponsive9" type="button"
-                                            data-bs-target="#carouselProductosResponsive" data-bs-slide-to="8"
-                                            aria-label="Imagen indicador producto responsive 9"></button>
+                            <button name="carruselSiguiente"
+                                class="carousel-control-next d-flex justify-content-center align-items-center d-none d-lg-flex"
+                                type="button" data-bs-target="#carouselProductos" data-bs-slide="next"
+                                aria-label="Imagen carrusel siguiente" title="Siguiente">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </button>
+                            <!-- Carousel responsive -->
+                            <div id="carouselProductosResponsive" class="carousel slide d-block d-lg-none"
+                                data-bs-ride="false">
+                                <!-- Indicadores de las imágenes -->
+                                <div class="carousel-indicators mt-4">
+                                    <button name="indicadorProductoResponsive1" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="0"
+                                        aria-label="Imagen indicador producto responsive 1" class="active"></button>
+                                    <button name="indicadorProductoResponsive2" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="1"
+                                        aria-label="Imagen indicador producto responsive 2"></button>
+                                    <button name="indicadorProductoResponsive3" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="2"
+                                        aria-label="Imagen indicador producto responsive 3"></button>
+                                    <button name="indicadorProductoResponsive4" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="3"
+                                        aria-label="Imagen indicador producto responsive 4"></button>
+                                    <button name="indicadorProductoResponsive5" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="4"
+                                        aria-label="Imagen indicador producto responsive 5"></button>
+                                    <button name="indicadorProductoResponsive6" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="5"
+                                        aria-label="Imagen indicador producto responsive 6"></button>
+                                    <button name="indicadorProductoResponsive7" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="6"
+                                        aria-label="Imagen indicador producto responsive 7"></button>
+                                    <button name="indicadorProductoResponsive8" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="7"
+                                        aria-label="Imagen indicador producto responsive 8"></button>
+                                    <button name="indicadorProductoResponsive9" type="button"
+                                        data-bs-target="#carouselProductosResponsive" data-bs-slide-to="8"
+                                        aria-label="Imagen indicador producto responsive 9"></button>
+                                </div>
+                                <!-- Imágenes del carousel -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="../html/detalle_producto.html">
+                                                    <img src="../img/cubo3x3.webp" alt="Imagen cubo 3x3"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="../html/detalle_producto.html">Qiyi Warrior W 3x3x3</a>
+                                                </h2>
+                                                <p>Cubo de rubik low cost pero con un rendimiento bastante elevado.
+                                                </p>
+                                                <p class="fw-bold">4.95 €</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- Imágenes del carousel -->
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="../html/detalle_producto.html">
-                                                        <img src="../img/cubo3x3.webp" alt="Imagen cubo 3x3"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="../html/detalle_producto.html">Qiyi Warrior W 3x3x3</a>
-                                                    </h2>
-                                                    <p>Cubo de rubik low cost pero con un rendimiento bastante elevado.
-                                                    </p>
-                                                    <p class="fw-bold">4.95 €</p>
-                                                </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="../html/detalle_producto_2.html">
+                                                    <img src="../img/cuboPyraminx.webp" alt="Imagen cubo pyraminx"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="../html/detalle_producto_2.html">Qiyi Pyraminx S 2</a>
+                                                </h2>
+                                                <p>Cubo de versión actualizada con mejoras para speedsolving.</p>
+                                                <p class="fw-bold">7.50 €</p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="../html/detalle_producto_2.html">
-                                                        <img src="../img/cuboPyraminx.webp" alt="Imagen cubo pyraminx"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="../html/detalle_producto_2.html">Qiyi Pyraminx S 2</a>
-                                                    </h2>
-                                                    <p>Cubo de versión actualizada con mejoras para speedsolving.</p>
-                                                    <p class="fw-bold">7.50 €</p>
-                                                </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="https://www.juegosbesa.com/es/megaminx/275-qiyi-megaminx-qiheng-s.html"
+                                                    target="_blank">
+                                                    <img src="../img/cuboMegaminx.webp" alt="Imagen cubo Megaminx"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/megaminx/275-qiyi-megaminx-qiheng-s.html"
+                                                        target="_blank">Qiyi Megaminx S</a></h2>
+                                                <p>Cubo con muchas características; una de las mejores opciones.</p>
+                                                <p class="fw-bold">9.50 €</p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/megaminx/275-qiyi-megaminx-qiheng-s.html"
-                                                        target="_blank">
-                                                        <img src="../img/cuboMegaminx.webp" alt="Imagen cubo Megaminx"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/megaminx/275-qiyi-megaminx-qiheng-s.html"
-                                                            target="_blank">Qiyi Megaminx S</a></h2>
-                                                    <p>Cubo con muchas características; una de las mejores opciones.</p>
-                                                    <p class="fw-bold">9.50 €</p>
-                                                </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="https://www.juegosbesa.com/es/4x4x4/2699-qiyi-qiyuan-s3-4x4.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-qiyuan-s3-4x4.webp" alt="Imagen cubo 4x4"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/4x4x4/2699-qiyi-qiyuan-s3-4x4.html"
+                                                        target="_blank">Qiyi Qiyuan S3 4x4</a></h2>
+                                                <p>Versión actualizada de se famoso 4x4 stickerless.</p>
+                                                <p class="fw-bold">8.95 €</p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/4x4x4/2699-qiyi-qiyuan-s3-4x4.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-qiyuan-s3-4x4.webp" alt="Imagen cubo 4x4"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/4x4x4/2699-qiyi-qiyuan-s3-4x4.html"
-                                                            target="_blank">Qiyi Qiyuan S3 4x4</a></h2>
-                                                    <p>Versión actualizada de se famoso 4x4 stickerless.</p>
-                                                    <p class="fw-bold">8.95 €</p>
-                                                </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="https://www.juegosbesa.com/es/cubos-de-rubik/1702-qiyi-magnetic-clock.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-magnetic-clock.webp" alt="Imagen clock"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/cubos-de-rubik/1702-qiyi-magnetic-clock.html"
+                                                        target="_blank">Qiyi Magnetic Clock</a></h2>
+                                                <p>El Clock ha llegado para convertirse en el rey de la categoría.
+                                                </p>
+                                                <p class="fw-bold">29.95 €</p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/cubos-de-rubik/1702-qiyi-magnetic-clock.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-magnetic-clock.webp" alt="Imagen clock"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/cubos-de-rubik/1702-qiyi-magnetic-clock.html"
-                                                            target="_blank">Qiyi Magnetic Clock</a></h2>
-                                                    <p>El Clock ha llegado para convertirse en el rey de la categoría.
-                                                    </p>
-                                                    <p class="fw-bold">29.95 €</p>
-                                                </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="https://www.juegosbesa.com/es/2x2x2/2839-qiyi-m-pro-2x2.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-m-pro-2x2.webp" alt="Imagen cubo 2x2"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/2x2x2/2839-qiyi-m-pro-2x2.html"
+                                                        target="_blank">Qiyi M Pro 2x2</a></h2>
+                                                <p>Es una obra maestra diseñada para poner a prueba tu rapidez.</p>
+                                                <p class="fw-bold">7.95 €</p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/2x2x2/2839-qiyi-m-pro-2x2.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-m-pro-2x2.webp" alt="Imagen cubo 2x2"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/2x2x2/2839-qiyi-m-pro-2x2.html"
-                                                            target="_blank">Qiyi M Pro 2x2</a></h2>
-                                                    <p>Es una obra maestra diseñada para poner a prueba tu rapidez.</p>
-                                                    <p class="fw-bold">7.95 €</p>
-                                                </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="https://www.juegosbesa.com/es/1x1x1/2015-qiyi-o2-1x1x1.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-o2-1x1x1.webp" alt="Imagen cubo 1x1"
+                                                        class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/1x1x1/2015-qiyi-o2-1x1x1.html"
+                                                        target="_blank">Qiyi O2 1x1x1</a></h2>
+                                                <p>El Qiyi O2 es un cubo con intercambio de centros fácil de
+                                                    resolver.
+                                                </p>
+                                                <p class="fw-bold">5.95 €</p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/1x1x1/2015-qiyi-o2-1x1x1.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-o2-1x1x1.webp" alt="Imagen cubo 1x1"
-                                                            class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/1x1x1/2015-qiyi-o2-1x1x1.html"
-                                                            target="_blank">Qiyi O2 1x1x1</a></h2>
-                                                    <p>El Qiyi O2 es un cubo con intercambio de centros fácil de
-                                                        resolver.
-                                                    </p>
-                                                    <p class="fw-bold">5.95 €</p>
-                                                </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="https://www.juegosbesa.com/es/mirror/278-qiyi-mirror-3x3-plata.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-mirror-3x3-plata.webp"
+                                                        alt="Imagen cubo 3x3 mirror" class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/mirror/278-qiyi-mirror-3x3-plata.html"
+                                                        target="_blank">Qiyi Mirror 3x3 Plata</a></h2>
+                                                <p>El famoso Mirror aterriza de la mano del coloso Qiyi.</p>
+                                                <p class="fw-bold">6.90 €</p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/mirror/278-qiyi-mirror-3x3-plata.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-mirror-3x3-plata.webp"
-                                                            alt="Imagen cubo 3x3 mirror" class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/mirror/278-qiyi-mirror-3x3-plata.html"
-                                                            target="_blank">Qiyi Mirror 3x3 Plata</a></h2>
-                                                    <p>El famoso Mirror aterriza de la mano del coloso Qiyi.</p>
-                                                    <p class="fw-bold">6.90 €</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-12 text-center">
-                                                    <a href="https://www.juegosbesa.com/es/cubos-especiales/202-qiyi-skewb-qicheng-stickerless.html"
-                                                        target="_blank">
-                                                        <img src="../img/qiyi-skewb-qicheng-stickerless.webp"
-                                                            alt="Imagen cubo skewb" class="img-fluid">
-                                                    </a>
-                                                    <h2><a href="https://www.juegosbesa.com/es/cubos-especiales/202-qiyi-skewb-qicheng-stickerless.html"
-                                                            target="_blank">Qiyi Skewb Stickerless</a></h2>
-                                                    <p>Destaca por su gran fluidez y también por sus colores vivos.</p>
-                                                    <p class="fw-bold">7.50 €</p>
-                                                </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="https://www.juegosbesa.com/es/cubos-especiales/202-qiyi-skewb-qicheng-stickerless.html"
+                                                    target="_blank">
+                                                    <img src="../img/qiyi-skewb-qicheng-stickerless.webp"
+                                                        alt="Imagen cubo skewb" class="img-fluid">
+                                                </a>
+                                                <h2><a href="https://www.juegosbesa.com/es/cubos-especiales/202-qiyi-skewb-qicheng-stickerless.html"
+                                                        target="_blank">Qiyi Skewb Stickerless</a></h2>
+                                                <p>Destaca por su gran fluidez y también por sus colores vivos.</p>
+                                                <p class="fw-bold">7.50 €</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Botones de control -->
-                                <button name="carruselResponsiveAnterior"
-                                    class="carousel-control-prev d-flex justify-content-center align-items-center d-block d-lg-none"
-                                    type="button" data-bs-target="#carouselProductosResponsive" data-bs-slide="prev"
-                                    aria-label="Imagen anterior en carrusel responsive">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </button>
-                                <button name="carruselResponsiveSiguiente"
-                                    class="carousel-control-next d-flex justify-content-center align-items-center d-block d-lg-none"
-                                    type="button" data-bs-target="#carouselProductosResponsive" data-bs-slide="next"
-                                    aria-label="Imagen siguiente en carrusel responsive">
-                                    <span class="carousel-control-next-icon"></span>
-                                </button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                            </div>
+                            <!-- Botones de control -->
+                            <button name="carruselResponsiveAnterior"
+                                class="carousel-control-prev d-flex justify-content-center align-items-center d-block d-lg-none"
+                                type="button" data-bs-target="#carouselProductosResponsive" data-bs-slide="prev"
+                                aria-label="Imagen anterior en carrusel responsive">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button name="carruselResponsiveSiguiente"
+                                class="carousel-control-next d-flex justify-content-center align-items-center d-block d-lg-none"
+                                type="button" data-bs-target="#carouselProductosResponsive" data-bs-slide="next"
+                                aria-label="Imagen siguiente en carrusel responsive">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </main>
 

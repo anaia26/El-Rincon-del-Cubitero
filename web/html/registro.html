@@ -19,18 +19,22 @@
         <nav id="navegador" class="navbar navbar-expand-md">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-center">
-                    <a href="../html/index.html"><img src="../img/logo_pestanha.webp" alt="Logo de la tienda" id="logoTiendaHeader" class="ms-4 my-2"></a>
-                    <p class="text-white mt-3 ms-4"><a title="El Rincón del Cubitero" href="../html/index.html" id="enlaceNombreTiendaHeader">El Rincón del Cubitero</a></p>
+                    <a href="../html/index.html"><img src="../img/logo_pestanha.webp" alt="Logo de la tienda"
+                            id="logoTiendaHeader" class="ms-4 my-2"></a>
+                    <p class="text-white mt-3 ms-4"><a title="El Rincón del Cubitero" href="../html/index.html"
+                            id="enlaceNombreTiendaHeader">El Rincón del Cubitero</a></p>
                 </div>
                 <div class="d-flex justify-content-center ms-4">
-                    <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse me-3" id="navbarNav">
                         <ul class="navbar-nav d-flex justify-content-center">
                             <li class="nav-item mx-3">
-                                <a title="Inicio" class="nav-link active" aria-current="page" href="../html/index.html">Inicio</a>
+                                <a title="Inicio" class="nav-link active" aria-current="page"
+                                    href="../html/index.html">Inicio</a>
                             </li>
                             <li class="nav-item mx-3">
                                 <a title="Productos" class="nav-link active" aria-current="page"
@@ -46,7 +50,8 @@
                                 <a title="Login" class="nav-link active" href="../html/login.html">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a title="Carrito" href="../html/login.html"><img src="../img/carro-de-la-compra.webp" alt="Logo de carrito" id="logoCarritoHeader" class="ms-3 my-1"></a>
+                                <a title="Carrito" href="../html/login.html"><img src="../img/carro-de-la-compra.webp"
+                                        alt="Logo de carrito" id="logoCarritoHeader" class="ms-3 my-1"></a>
                             </li>
                         </ul>
                     </div>
@@ -54,85 +59,83 @@
             </div>
         </nav>
     </header>
+    <div class="container d-flex justify-content-start pt-4 pb-4 mt-4">
+        <nav aria-label="breadcrumb row">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a title="Inicio" aria-label="Inicio" href="../html/index.html" class="enlaceLila"><i class="bi bi-house-door-fill"></i></a></li>
+                <li class="breadcrumb-item active text-decoration-underline" aria-current="page">Registro</li>
+            </ol>
+        </nav>
+    </div>
     <main>
         <div class="py-5">
             <div class="container">
-                <nav aria-label="breadcrumb row">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a title="Inicio" aria-label="Inicio" href="../html/index.html"
-                                class="enlaceLila"><i class="bi bi-house-door-fill"></i></a></li>
-                        <li class="breadcrumb-item active text-decoration-underline" aria-current="page">Registro</a>
-                        </li>
-                    </ol>
-                    <div class="form-container p-4">
-                        <h1 class="text-center mb-4">Regístrate</h1>
-                        <p class="text-muted">* Campo obligatorio</p>
-                        <form>
-                            <!-- Usuario -->
-                            <div class="mb-3">
-                                <label for="usuario" class="form-label">*Usuario</label>
-                                <input type="text" class="form-control" id="usuario" required data-bs-toggle="tooltip"
-                                    data-bs-placement="top" title="Ingrese un nombre de usuario">
-                            </div>
-                            <!-- Contraseña -->
-                            <div class="mb-3">
-                                <label for="contrasena" class="form-label">*Contraseña</label>
-                                <input type="password" class="form-control" id="contrasena" required
-                                    data-bs-toggle="tooltip" data-bs-placement="top"
-                                    title="Ingrese una contraseña">
-                            </div>
-                            <!-- Correo electrónico -->
-                            <div class="mb-3">
-                                <label for="correo" class="form-label">*Correo electrónico</label>
-                                <input type="email" class="form-control" id="correo" required data-bs-toggle="tooltip"
-                                    data-bs-placement="top" title="Ejemplo: usuario@correo.com">
-                            </div>
-                            <!-- Nombre -->
-                            <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="nombre" data-bs-toggle="tooltip"
-                                    date-bs-placement="top" title="Ingrese su nombre">
-                            </div>
-                            <!-- Primer apellido -->
-                            <div class="mb-3">
-                                <label for="primer-apellido" class="form-label">Primer apellido</label>
-                                <input type="text" class="form-control" id="primer-apellido" data-bs-toggle="tooltip"
-                                date-bs-placement="top" title="Ingrese su primer apellido">
-                            </div>
-                            <!-- Segundo apellido -->
-                            <div class="mb-3">
-                                <label for="segundo-apellido" class="form-label">Segundo apellido</label>
-                                <input type="text" class="form-control" id="segundo-apellido" data-bs-toggle="tooltip"
-                                date-bs-placement="top" title="Ingrese su segundo apellido">
-                            </div>
-                            <!-- Fecha de nacimiento -->
-                            <div class="mb-3">
-                                <label for="fecha-nacimiento" class="form-label">Fecha de nacimiento</label>
-                                <input type="date" class="form-control" id="fecha-nacimiento" data-bs-toggle="tooltip"
-                                date-bs-placement="top" title="Ingrese su fecha de nacimiento">
-                            </div>
-                            <!-- Teléfono móvil -->
-                            <div class="mb-3">
-                                <label for="telefono" class="form-label">*Teléfono móvil</label>
-                                <input type="tel" class="form-control" id="telefono" required pattern="[0-9]{9,15}"
-                                    data-bs-toggle="tooltip" data-bs-placement="top"
-                                    title="Ingrese su número de telefono">
-                            </div>
-                            <!-- Dirección -->
-                            <div class="mb-3">
-                                <label for="direccion" class="form-label">*Dirección</label>
-                                <input type="text" class="form-control" id="direccion" required data-bs-toggle="tooltip"
-                                date-bs-placement="top" title="Ingrese su dirección">
-                            </div>
-                            <!-- Botón de registro -->
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-primary">Registrar</button>
-                            </div>
-                            <p class="mt-4 text-center">¿Tienes cuenta ya?
-                                <a id="registrateAqui" aria-label="Ir a Login" href="../html/login.html">Accede aquí</a>
-                            </p>
-                        </form>
-                    </div>
+                <div class="form-container p-4">
+                    <h1 class="text-center mb-4">Regístrate</h1>
+                    <p class="text-muted">* Campo obligatorio</p>
+                    <form>
+                        <!-- Usuario -->
+                        <div class="mb-3">
+                            <label for="usuario" class="form-label">*Usuario</label>
+                            <input type="text" class="form-control" id="usuario" required data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="Ingrese un nombre de usuario">
+                        </div>
+                        <!-- Contraseña -->
+                        <div class="mb-3">
+                            <label for="contrasena" class="form-label">*Contraseña</label>
+                            <input type="password" class="form-control" id="contrasena" required
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese una contraseña">
+                        </div>
+                        <!-- Correo electrónico -->
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">*Correo electrónico</label>
+                            <input type="email" class="form-control" id="correo" required data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="Ejemplo: usuario@correo.com">
+                        </div>
+                        <!-- Nombre -->
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" title="Ingrese su nombre">
+                        </div>
+                        <!-- Primer apellido -->
+                        <div class="mb-3">
+                            <label for="primer-apellido" class="form-label">Primer apellido</label>
+                            <input type="text" class="form-control" id="primer-apellido"
+                                title="Ingrese su primer apellido">
+                        </div>
+                        <!-- Segundo apellido -->
+                        <div class="mb-3">
+                            <label for="segundo-apellido" class="form-label">Segundo apellido</label>
+                            <input type="text" class="form-control" id="segundo-apellido"
+                                title="Ingrese su segundo apellido">
+                        </div>
+                        <!-- Fecha de nacimiento -->
+                        <div class="mb-3">
+                            <label for="fecha-nacimiento" class="form-label">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" id="fecha-nacimiento"
+                                title="Ingrese su fecha de nacimiento">
+                        </div>
+                        <!-- Teléfono móvil -->
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">*Teléfono móvil</label>
+                            <input type="tel" class="form-control" id="telefono" required pattern="[0-9]{9,15}"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su número de telefono">
+                        </div>
+                        <!-- Dirección -->
+                        <div class="mb-3">
+                            <label for="direccion" class="form-label">*Dirección</label>
+                            <input type="text" class="form-control" id="direccion" required
+                                title="Ingrese su dirección">
+                        </div>
+                        <!-- Botón de registro -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Registrar</button>
+                        </div>
+                        <p class="mt-4 text-center">¿Tienes cuenta ya?
+                            <a id="registrateAqui" aria-label="Ir a Login" href="../html/login.html">Accede aquí</a>
+                        </p>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
