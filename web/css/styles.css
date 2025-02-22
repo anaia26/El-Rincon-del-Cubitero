@@ -127,24 +127,24 @@ main {
     border: 0.3125rem solid rgb(84, 84, 172); 
 }
 
-/*Posicionar los indicadores del carrusel debajo de las imágenes.*/
+/* Posicionar los indicadores del carrusel debajo de las imágenes. */
 .carousel-indicators {
     position: absolute;
     bottom: -1.5625rem;/*-25px*/
 }
 
-/*Poner color de fondo a los indicadores inactivos del carrusel.*/
+/* Poner color de fondo a los indicadores inactivos del carrusel. */
 .carousel-indicators button:not(.active) {
     background-color: grey;
 }
 
-/*Poner color de fondo a los indicadores activos del carrusel.*/
+/* Poner color de fondo a los indicadores activos del carrusel. */
 .carousel-indicators .active {
     background-color: rgb(84, 84, 172);
 }
 
-/*Poner tamaño (anchura y altura), color de fondo semitransparente, borde redondeado, relleno a los dos controles del carrusel y poner los 
-controles del carrusel en el centro.*/
+/* Poner tamaño (anchura y altura), color de fondo semitransparente, borde redondeado, relleno a los dos controles del carrusel y poner los 
+controles del carrusel en el centro. */
 .carousel-control-prev, .carousel-control-next {
     width: 2.5rem;/*40px*/
     height: 2.5rem;/*40px*/
@@ -154,33 +154,33 @@ controles del carrusel en el centro.*/
     transform: translateY(-50%);
 }
 
-/*Cambiar el color de los controles del carrusel cuando se pasa el ratón por encima*/
+/* Cambiar el color de los controles del carrusel cuando se pasa el ratón por encima. */
 .carousel-control-prev:hover, .carousel-control-next:hover {
     background-color: rgb(84, 84, 172);
 }
 
-/*Poner tamaño de letra a los iconos del carrusel "<,>" y altura de línea para evitar que los iconos se desplacen.*/
+/* Poner tamaño de letra a los iconos del carrusel "<,>" y altura de línea para evitar que los iconos se desplacen. */
 .carousel-control-prev span, .carousel-control-next span {
     font-size: 1.875rem; /*30px*/
     line-height: 1;
 }
 
-/*Poner a la izquierda el control anterior del carrusel.*/
+/* Poner a la izquierda el control anterior del carrusel. */
 .carousel-control-prev {
     position: absolute;
     top: 45%;
     left: 1%;
 }
 
-/*Poner a la derecha el control siguiente del carrusel.*/
+/* Poner a la derecha el control siguiente del carrusel. */
 .carousel-control-next {
     position: absolute;
     top: 45%;
     right: 1%;
 }
 
-/*Poner tamaño (anchura y altura), color de fondo semitransparente, borde redondeado, relleno a los dos controles del carrusel y poner los 
-controles del carrusel en el centro.*/
+/* Poner tamaño (anchura y altura), color de fondo semitransparente, borde redondeado, relleno a los dos controles del carrusel y poner los 
+controles del carrusel en el centro. */
 #carouselProductosResponsive .carousel-control-prev, .carousel-control-next {
     width: 2.5rem;/*40px*/
     height: 2.5rem;/*40px*/
@@ -190,24 +190,24 @@ controles del carrusel en el centro.*/
     transform: translateY(-50%);
 }
 
-/*Cambiar el color de los controles del carrusel cuando se pasa el ratón por encima*/
+/* Cambiar el color de los controles del carrusel cuando se pasa el ratón por encima. */
 #carouselProductosResponsive .carousel-control-prev:hover, .carousel-control-next:hover {
     background-color: rgb(84, 84, 172);
 }
 
-/*Poner tamaño de letra a los iconos del carrusel "<,>" y altura de línea para evitar que los iconos se desplacen.*/
+/* Poner tamaño de letra a los iconos del carrusel "<,>" y altura de línea para evitar que los iconos se desplacen. */
 #carouselProductosResponsive .carousel-control-prev span, .carousel-control-next span {
     font-size: 1.875rem; /*30px*/
     line-height: 1;
 }
 
-/*Poner a la izquierda el control anterior del carrusel.*/
+/* Poner a la izquierda el control anterior del carrusel. */
 #carouselProductosResponsive .carousel-control-prev {
     position: absolute;
     top: 50%;
 }
 
-/*Poner a la derecha el control siguiente del carrusel.*/
+/* Poner a la derecha el control siguiente del carrusel. */
 #carouselProductosResponsive .carousel-control-next {
     position: absolute;
     top: 50%;
@@ -280,13 +280,13 @@ text-decoration: none;
     color: rgb(84, 84, 172,0.8);
 }
 
-/*Poner color de letra y eliminar subrayado a los elementos que tienen la clase .enlaceLila.*/
+/* Poner color de letra y eliminar subrayado a los elementos que tienen la clase .enlaceLila. */
 .enlaceLila {
     color: #5454AC;
     text-decoration: none;
 }
 
-/*Poner subrayado a los elementos que tienen la clase .enlaceLila cuando se pasa el ratón por encima.*/
+/* Poner subrayado a los elementos que tienen la clase .enlaceLila cuando se pasa el ratón por encima. */
 .enlaceLila:hover {
     text-decoration: underline;
 }
@@ -295,24 +295,25 @@ text-decoration: none;
     color: #5454AC;
 }
 
-/*Agregar antes ">" y ponerle color a los separadores de las migas de pan pero no lo agrega antes del primer elemento de las migas de pan.*/
+/* Agregar antes ">" y ponerle color a los separadores de las migas de pan pero no lo agrega antes del primer elemento de las migas de pan. */
 .breadcrumb-item + .breadcrumb-item::before {
     content: " > ";
     color: #5454AC;
 }
 
-/*Mantenemos el ancho en 75% con un ajuste automático de la altura y evitamos deformaciones de relación con object-fit:cover*/
+/* Mantenemos el ancho en 75% con un ajuste automático de la altura y evitamos deformaciones de relación con object-fit:cover. */
 #fotoPerfil1 {
     width: 75%;  
     height: auto;  
     object-fit: cover; 
 }
 
+/* Añadimos un ancho de 1.875rem, background-color:white border-radius:100% y padding: 0.3125rem al logo del carrito en el header. */
 #logoCarritoHeader {
-    width: 30px;
+    width: 1.875rem;
     background-color: white;
     border-radius: 100%;
-    padding: 5px;
+    padding: 0.3125rem;
 }
 
 /* Hover de li-header con underline en blanco */
@@ -321,7 +322,27 @@ text-decoration: none;
     color: white;
 }
 
+/* Añadimos un subrayado en color blanco para el item activo */
 .navbar-nav .nav-item.active {
-    text-decoration: underline; /* Subrayado en el item activo */
-    color: white; /* Color blanco para el item activo */
+    text-decoration: underline; 
+    color: white; 
+}
+
+/* Borde resaltado en amarillo con efecto de brillo aumentando ligeramente su tamaño para resaltar el boton al tabular. */
+.btn:focus {
+    outline: 3px solid #ffcc00; 
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+    transform: scale(1.05); 
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(84, 84, 172);
+}
+
+/* Borde resaltado en amarillo con efecto de brillo aumentando ligeramente su tamaño para resaltar el boton al tabular en los 3 productos_detalle. */
+.btn-cart:focus {
+    outline: 3px solid #ffcc00; 
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7); 
+    transform: scale(1.05); 
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(84, 84, 172);
+    color: white;
 }
