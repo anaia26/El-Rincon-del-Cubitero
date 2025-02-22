@@ -303,3 +303,10 @@ text-decoration: none;
     height: auto;  
     object-fit: cover; 
 }
+
+#logoCarritoHeader {
+    width: 30px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 5px;
+}
