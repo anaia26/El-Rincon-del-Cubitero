@@ -57,7 +57,6 @@ main {
 }
 
 .imagenProducto img {
-    max-width: 20rem;
     max-height: 20rem;
 }
 
@@ -169,14 +168,14 @@ controles del carrusel en el centro. */
 .carousel-control-prev {
     position: absolute;
     top: 45%;
-    left: 1%;
+    left: 0.2%;
 }
 
 /* Poner a la derecha el control siguiente del carrusel. */
 .carousel-control-next {
     position: absolute;
     top: 45%;
-    right: 1%;
+    right: 0.2%;
 }
 
 /* Poner tamaño (anchura y altura), color de fondo semitransparente, borde redondeado, relleno a los dos controles del carrusel y poner los 
@@ -219,6 +218,7 @@ button.carousel-control-next, button.carousel-control-prev {
 
 span.carousel-control-next {
     margin-right: 10px;
+    
 }
 
 #enlaceMapaWeb {
@@ -335,12 +335,13 @@ text-decoration: none;
     transform: scale(1.05); 
     transition: all 0.2s ease-in-out;
     background-color: rgb(84, 84, 172);
+    color: white;
 }
 
 /* Borde resaltado en amarillo con efecto de brillo aumentando ligeramente su tamaño para resaltar el boton al tabular en los 3 productos_detalle. */
 .btn-cart:focus {
     outline: 3px solid #ffcc00; 
-    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7); 
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
     transform: scale(1.05); 
     transition: all 0.2s ease-in-out;
     background-color: rgb(84, 84, 172);
