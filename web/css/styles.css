@@ -229,6 +229,10 @@ span.carousel-control-next {
     text-decoration: underline;
 }
 
+#enlaceMapaWeb.active {
+    text-decoration: underline;
+}
+
 .sublistaMapaWeb li::before {
     content: "🧊 "; 
     margin-right: 0.625rem; 
@@ -309,4 +313,15 @@ text-decoration: none;
     background-color: white;
     border-radius: 100%;
     padding: 5px;
+}
+
+/* Hover de li-header con underline en blanco */
+.navbar-nav .nav-item:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar-nav .nav-item.active {
+    text-decoration: underline; /* Subrayado en el item activo */
+    color: white; /* Color blanco para el item activo */
 }
