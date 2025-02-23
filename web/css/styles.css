@@ -217,29 +217,34 @@ padding: 3.125rem;
     text-decoration: underline;
 }
 
+/* Añadimos el color rgb(84, 84, 172,0.8) y text-decoration:none a nuestra clase carousel-inner a. */
 .carousel-inner a {
 color: rgb(84, 84, 172);
 text-decoration: none;
 }
 
+/* Añadimos un font-size de 2.2rem, text-decoration:none y cursor:pointer a nuestra clase carousel-inner a al hacer hover. */
 .carousel-inner a:hover {
     font-size: 2.2rem;
     cursor: pointer;
     text-decoration: none;
 }
-
+/* Añadimos el color rgb(84, 84, 172,0.8) a nuestro id registrateAqui. */
 #registrateAqui {
     color: rgb(84, 84, 172);
 }
 
+/* Añadimos el color rgb(84, 84, 172,0.8) a nuestro id registrateAqui al hacer hover. */
 #registrateAqui:hover {
     color: rgb(84, 84, 172, 0.8);
 }
 
+/* Añadimos el color rgb(84, 84, 172,0.8) a nuestro li. */
 #enlaces li a {
     color: rgb(84, 84, 172);
 }
 
+/* Añadimos el color rgb(84, 84, 172,0.8) a nuestro li al hacer hover. */
 #enlaces li a:hover {
     color: rgb(84, 84, 172,0.8);
 }
