@@ -10,7 +10,7 @@ El desarrollo de esta web ha seguido los siguientes requisitos de accesibilidad:
 - Contraste adecuado entre texto y fondo.
 - Diseño responsive.
 - Compatibilidad con navegación por teclado y lectores de pantalla.
-- Verificación mediante la herramienta Lighthouse.
+- Validación mediante la herramienta Lighthouse.
 
 ## Estructura del Proyecto
 ```
