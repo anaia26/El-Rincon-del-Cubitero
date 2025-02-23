@@ -1,6 +1,3 @@
-# Práctica de Accesibilidad Web de DIW
-Práctica de Accesibilidad Web para la asignatura de Diseño de Aplicaciones Web realizada por Ana Iglesias y Diego Coello en 2025.
-
 # Tienda de Cubos de Rubik (El Rincón del Cubitero) - Práctica de Accesibilidad Web
 
 ## Descripción
@@ -30,7 +27,7 @@ El desarrollo de esta web ha seguido los siguientes requisitos de accesibilidad:
 |           ├── login.html
 |           ├── mapa_web.html
 │   ├── css/
-            ├── styles.css
+|           ├── styles.css
 │   ├── img/
 │           ├── carro-de-la-compra.webp
 |           ├── cubo3x3.webp
@@ -76,4 +73,4 @@ Se han corregido los problemas detectados para cumplir con los estándares.
 2. Abrir el archivo `index.html` en un navegador.
 
 ## Autores
-Desarrollado por: Ana Iglesias y Diego Coello para la asignatura de Diseño de Aplicaciones Web en 2025.
+Desarrollado por: Ana Iglesias y Diego Coello para la asignatura de Diseño de Interfaces Web (2º CS Desarrollo de Aplicaciones Web) en 2025.
