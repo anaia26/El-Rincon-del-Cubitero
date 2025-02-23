@@ -1,50 +1,61 @@
+/* Añadimos a body un font-family con un background color white. */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
 
+/* En el id logoRiendaHeades añadimos las propiedades width con 3.125rem y height con 3.125rem. */
 #logoTiendaHeader {
     width: 3.125rem;/*50px*/
     height: 3.125rem;/*50px*/
 }
 
+/* En el id enlaceNombreTiendaHeader añadimos un color white y text-decoration:none. */
 #enlaceNombreTiendaHeader {
     color: white;
     text-decoration: none;
 }
 
+/* En el id listaInicio li::before agregamos un content: "🧊 ", margin-right: 0.625rem y font-size de 1rem. */
 #listaInicio li::before {
     content: "🧊 "; 
     margin-right: 0.625rem; 
     font-size: 1rem; 
 }
 
+/* En el id listaInicio aplicamos un list-style:none. */
 #listaInicio {
     list-style: none;
 }
 
+/* En el id listaTitulo aplicamos un list-style:none. */
 #listaTitulo {
     list-style: none;
 }
 
+/* En id navegador agregamos un background-color: rgb(84, 84, 172). */
 #navegador {
     background-color: rgb(84, 84, 172);
 }
 
+/* En la clase navbar-toggler agregamos un background-color: white. */
 .navbar-toggler {
     background-color: white;
 }
 
+/* Para las clases navbar-toggler:focus y navbar-toggler:active añadimos un outline: none, box-shadow: none y border: none. */
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
     box-shadow: none;
     border: none;
 }
 
+/* En el id navegador li a añadimos un color white. */
 #navegador li a {
     color: white;
 }
 
+/* En el id footer agregamos un min-height de 6.25rem, background-color: rgb(84, 84, 172), margin-bottom: 0rem y width al 100%. */
 #footer {
     min-height: 6.25rem;
     background-color: rgb(84, 84, 172);
@@ -52,18 +63,22 @@ body {
     width: 100%;
 }
 
+/* En main añadimos un height del 100%. */
 main {
     height: 100%;
 }
 
+/* En la clase imagenPoducto img añadimos un max-height de 20rem. */
 .imagenProducto img {
     max-height: 20rem;
 }
 
+/* En la clase map-container agregamos un border: 0.3125rem solid rgb(84, 84, 172). */
 .map-container {
     border: 0.3125rem solid rgb(84, 84, 172);
 }
 
+/* En la clase form-container añadimos un max-width de 37.5rem, margin: 0 auto, border: 0.3125rem solid rgb(84, 84, 172),  border-radius de 0.625rem y background-color: #f9f9f9. */
 .form-container {
     max-width: 37.5rem;
     margin: 0 auto;
@@ -72,56 +87,67 @@ main {
     background-color: #f9f9f9;
 }
 
+/* En la clase form -container y form-label añadimos un font-weight:bold. */
 .form-container .form-label {
     font-weight: bold;
 }
 
+/* En la clase btn agregamos un background-color: rgb(84, 84, 172) y un color white. */
 .btn {
     background-color: rgb(84, 84, 172);
     color: white;
 }
 
+/* En la clase btn:hover agregamos un background-color: rgb(84, 84, 172, 0.8) y un color white. */
 .btn:hover {
     background-color: rgb(84, 84, 172, 0.8);
     color: white;
 }
 
+/* En el id idThead th añadimos un color white y background-color: rgb(84, 84, 172). */
 #idThead th {
     color: white;
     background-color: rgb(84, 84, 172);
 }
 
+/* En la clase btn-cart añadimos un background-color: rgb(84, 84, 172), color white y border:none. */
 .btn-cart {
     background-color: rgb(84, 84, 172);
     color: white;
     border: none;
 }
+
+/* En la clase btn-cart:hover agregamos un background-color: rgb(84, 84, 172, 0.8). */
 .btn-cart:hover {
     background-color: rgb(84, 84, 172, 0.8);
 }
 
-
+/* En la clase product-card añadimos un background-color: white, border-radius de 0.625rem y border: 0.3125rem solid rgb(84, 84, 172). */
 .product-card {
     background-color: white;
     border-radius: 0.625rem;
     border: 0.3125rem solid rgb(84, 84, 172);
 }
 
+/* En la clase price agregamos un font-size de 1.875rem, font-weight: bold y color black. */
 .price {
     font-size: 1.875rem;
     font-weight: bold;
     color: black;
 }
 
+/* En la clase etiquetaProducto agregamos un color: rgb(84, 84, 172) y font-weight: bold. */
 .etiquetaProducto {
     color: rgb(84, 84, 172);
     font-weight: bold;
 }
 
+/* En la clase custom-table añadimos un border de 0.3125rem solid rgb(84, 84, 172). */
 .custom-table {
     border: 0.3125rem solid rgb(84, 84, 172); 
 }
 
+/* En la clase custom-table td y el la clase custom-table th añadimos un border de 0.3125rem solid rgb(84, 84, 172). */
 .custom-table td,.custom-table th {
     border: 0.3125rem solid rgb(84, 84, 172); 
 }
@@ -176,43 +202,52 @@ controles del carrusel en el centro. */
     top: 45%;
 }
 
+/* En las clases button.carousel-control-next y button.carousel-control-prev agregamos un top del 50%. */
 button.carousel-control-next, button.carousel-control-prev {
     top: 50%;
 } 
 
+/* En el id mainCarrusel agregamos un position: relative con un padding de 3.125rem. */
 #mainCarrusel {
 position: relative;
 padding: 3.125rem;
 }
 
+/* En el id enlaceMapaWeb agregamos un text-decoration: none. */
 #enlaceMapaWeb {
     text-decoration: none;
 }
 
+/* En el id enlaceMapaWeb:hover agregamos un text-decoration: underline. */
 #enlaceMapaWeb:hover {
     text-decoration: underline;
 }
 
+/* En el id enlaceMapaWeb.active añadimos un text-decoration: underline. */
 #enlaceMapaWeb.active {
     text-decoration: underline;
 }
 
+/* En la clase sublistaMapaWeb li::before añadimos un content: "🧊 ", margin-right de 0.625rem y font-size de 1rem. */
 .sublistaMapaWeb li::before {
     content: "🧊 "; 
     margin-right: 0.625rem; 
     font-size: 1rem; 
 }
 
+/* En la clase sublistaMapaWeb agregamos un list-style: none. */
 .sublistaMapaWeb {
     list-style: none;
 }
 
+/* En la clase navegacionMapaWeb agregamos un color #000000, text-decoration: none y font-weight: bold. */
 .navegacionMapaWeb {
     color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
 
+/* En la clase navegacionMapaWeb:hover añadimos un text-decoration: underline. */
 .navegacionMapaWeb:hover {
     text-decoration: underline;
 }
@@ -260,6 +295,7 @@ text-decoration: none;
     text-decoration: underline;
 }
 
+/* En la clase breadcrumb .active añadimos un color de #5454AC. */
 .breadcrumb .active {
     color: #5454AC;
 }
