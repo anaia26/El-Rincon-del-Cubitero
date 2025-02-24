@@ -84,7 +84,7 @@ main {
     margin: 0 auto;
     border: 0.3125rem solid rgb(84, 84, 172);
     border-radius: 0.625rem;
-    background-color: #f9f9f9;
+    background-color: rgb(249, 249, 249);
 }
 
 /* En la clase form -container y form-label añadimos un font-weight:bold. */
@@ -240,9 +240,9 @@ padding: 3.125rem;
     list-style: none;
 }
 
-/* En la clase navegacionMapaWeb agregamos un color #000000, text-decoration: none y font-weight: bold. */
+/* En la clase navegacionMapaWeb agregamos un color black, text-decoration: none y font-weight: bold. */
 .navegacionMapaWeb {
-    color: #000000;
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -286,7 +286,7 @@ text-decoration: none;
 
 /* Poner color de letra y eliminar subrayado a los elementos que tienen la clase .enlaceLila. */
 .enlaceLila {
-    color: #5454AC;
+    color: rgb(84, 84, 172);
     text-decoration: none;
 }
 
@@ -295,15 +295,15 @@ text-decoration: none;
     text-decoration: underline;
 }
 
-/* En la clase breadcrumb .active añadimos un color de #5454AC. */
+/* En la clase breadcrumb .active añadimos un color de rgb(84, 84, 172). */
 .breadcrumb .active {
-    color: #5454AC;
+    color: rgb(84, 84, 172);
 }
 
 /* Agregar antes ">" y ponerle color a los separadores de las migas de pan pero no lo agrega antes del primer elemento de las migas de pan. */
 .breadcrumb-item + .breadcrumb-item::before {
     content: " > ";
-    color: #5454AC;
+    color: rgb(84, 84, 172);
 }
 
 /* Mantenemos el ancho en 75% con un ajuste automático de la altura y evitamos deformaciones de relación con object-fit:cover. */
@@ -335,7 +335,7 @@ text-decoration: none;
 
 /* Borde resaltado en amarillo con efecto de brillo aumentando ligeramente su tamaño para resaltar el boton al tabular. */
 .btn:focus {
-    outline: 3px solid #ffcc00; 
+    outline: 3px solid rgb(255, 204, 0); 
     box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
     transform: scale(1.05); 
     transition: all 0.2s ease-in-out;
@@ -345,7 +345,7 @@ text-decoration: none;
 
 /* Borde resaltado en amarillo con efecto de brillo aumentando ligeramente su tamaño para resaltar el boton al tabular en los 3 productos_detalle. */
 .btn-cart:focus {
-    outline: 3px solid #ffcc00; 
+    outline: 3px solid rgb(255, 204, 0); 
     box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
     transform: scale(1.05); 
     transition: all 0.2s ease-in-out;
