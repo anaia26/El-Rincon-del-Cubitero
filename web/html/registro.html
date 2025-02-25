@@ -73,11 +73,11 @@
             <div class="container">
                 <div class="form-container p-4">
                     <h1 class="text-center mb-4">Regístrate</h1>
-                    <p class="text-muted">* Campo obligatorio</p>
+                    <p title="Campo obligatorio" class="text-muted">* Campo obligatorio</p>
                     <form>
                         <!-- Usuario -->
                         <div class="mb-3">
-                            <label for="usuario" class="form-label">*Usuario:</label>
+                            <label title="Usuario" for="usuario" class="form-label">*Usuario:</label>
                             <input type="text" class="form-control" id="usuario" oninput="validarUsuario()" required
                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese un nombre de usuario">
                             <span id="usuario-error" aria-live="assertive" style="color: red;"></span>
@@ -101,22 +101,22 @@
 
                         <!-- Contraseña -->
                         <div class="mb-3">
-                            <label for="contrasena" class="form-label">*Contraseña:</label>
-                            <input type="password" class="form-control" id="contrasena" oninput="validarContrasena()"
+                            <label title="Contraseña" for="contraseña" class="form-label">*Contraseña:</label>
+                            <input type="password" class="form-control" id="contraseña" oninput="validarContraseña()"
                                 required data-bs-toggle="tooltip" data-bs-placement="top"
                                 title="Ingrese una contraseña">
-                            <span id="contrasena-error" aria-live="assertive" style="color: red;"></span>
+                            <span id="contraseña-error" aria-live="assertive" style="color: red;"></span>
                         </div>
                         <!-- Script de validación de contraseña -->
                         <script>
-                            function validarContrasena() {
-                                const contrasenaInput = document.getElementById("contrasena");
-                                const errorSpan = document.getElementById("contrasena-error");
-                                const contrasenaRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+                            function validarContraseña() {
+                                const contraseñaInput = document.getElementById("contraseña");
+                                const errorSpan = document.getElementById("contraseña-error");
+                                const contraseñaRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
-                                if (contrasenaInput.value.trim() === "") {
+                                if (contraseñaInput.value.trim() === "") {
                                     errorSpan.textContent = "La contraseña no puede estar vacía.";
-                                } else if (!contrasenaRegex.test(contrasenaInput.value)) {
+                                } else if (!contraseñaRegex.test(contraseñaInput.value)) {
                                     errorSpan.textContent = "La contraseña debe tener al menos 8 caracteres, incluir una letra, un número y un carácter especial (@$!%*?&).";
                                 } else {
                                     errorSpan.textContent = "";
@@ -126,7 +126,7 @@
 
                         <!-- Correo electrónico -->
                         <div class="mb-3">
-                            <label for="correo" class="form-label">*Correo electrónico:</label>
+                            <label title="Correo electrónico" for="correo" class="form-label">*Correo electrónico:</label>
                             <input type="email" class="form-control" id="correo" oninput="validarCorreo()" required
                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Ejemplo: usuario@correo.com">
                             <span id="correo-error" aria-live="assertive" style="color: red;"></span>
@@ -150,27 +150,27 @@
 
                         <!-- Nombre -->
                         <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre:</label>
+                            <label title="Nombre" for="nombre" class="form-label">Nombre:</label>
                             <input type="text" class="form-control" id="nombre" title="Ingrese su nombre">
                         </div>
 
                         <!-- Primer apellido -->
                         <div class="mb-3">
-                            <label for="primer-apellido" class="form-label">Primer apellido:</label>
+                            <label title="Primer apellido" for="primer-apellido" class="form-label">Primer apellido:</label>
                             <input type="text" class="form-control" id="primer-apellido"
                                 title="Ingrese su primer apellido">
                         </div>
 
                         <!-- Segundo apellido -->
                         <div class="mb-3">
-                            <label for="segundo-apellido" class="form-label">Segundo apellido:</label>
+                            <label title="Segundo apellido" for="segundo-apellido" class="form-label">Segundo apellido:</label>
                             <input type="text" class="form-control" id="segundo-apellido"
                                 title="Ingrese su segundo apellido">
                         </div>
 
                         <!-- Fecha de nacimiento -->
                         <div class="mb-3">
-                            <label for="fecha-nacimiento" class="form-label">*Fecha de nacimiento:</label>
+                            <label title="Fecha de nacimiento" for="fecha-nacimiento" class="form-label">*Fecha de nacimiento:</label>
                             <input type="date" class="form-control" id="fecha-nacimiento"
                                 oninput="validarFechaNacimiento()" required data-bs-toggle="tooltip"
                                 data-bs-placement="top" title="Ingrese su fecha de nacimiento">
@@ -205,7 +205,7 @@
 
                         <!-- Teléfono móvil -->
                         <div class="mb-3">
-                            <label for="telefono" class="form-label">*Teléfono móvil:</label>
+                            <label title="Teléfono móvil" for="telefono" class="form-label">*Teléfono móvil:</label>
                             <input type="tel" class="form-control" id="telefono" oninput="validarTelefono()" required
                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su número de teléfono">
                             <span id="telefono-error" aria-live="assertive" style="color: red;"></span>
@@ -229,7 +229,7 @@
 
                         <!-- Dirección -->
                         <div class="mb-3">
-                            <label for="direccion" class="form-label">Dirección:</label>
+                            <label title="Dirección" for="direccion" class="form-label">Dirección:</label>
                             <input type="text" class="form-control" id="direccion" title="Ingrese su dirección">
                         </div>
 
@@ -267,17 +267,17 @@
                 <a href="https://www.facebook.com/?locale=es_ES" target="_blank" rel="noopener"
                     class="me-2 mb-3 text-white fs-4 text-decoration-none" data-bs-toggle="tooltip"
                     data-bs-placement="top" title="Ir a Facebook">
-                    <i class="bi bi-facebook"></i>
+                    <i title="Facebook" class="bi bi-facebook"></i>
                 </a>
                 <a href="https://twitter.com/" target="_blank" rel="noopener"
                     class="me-2 mb-3 text-white fs-4 text-decoration-none" data-bs-toggle="tooltip"
                     data-bs-placement="top" title="Ir a Twitter">
-                    <i class="bi bi-twitter"></i>
+                    <i title="Twitter" class="bi bi-twitter"></i>
                 </a>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
                     class="mb-3 text-white fs-4 text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top"
                     title="Ir a Instagram">
-                    <i class="bi bi-instagram"></i>
+                    <i title="Instagram" class="bi bi-instagram"></i>
                 </a>
             </div>
             <p class="mb-1"><a title="Mapa web" href="../html/mapa_web.html" class="text-white" id="enlaceMapaWeb">Mapa
