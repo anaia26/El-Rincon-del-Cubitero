@@ -42,6 +42,8 @@ El desarrollo de esta web ha seguido los siguientes requisitos de accesibilidad:
 |           ├── qiyi-o2-1x1x1.webp
 |           ├── qiyi-qiyuan-s3-4x4.webp
 |           ├── qiyi-skewb-qicheng-stickerless.webp
+|   ├── js/
+|           ├── script.js
 │── /documentacion
 │   ├── P7DIW.pdf
 │── README.md
@@ -55,13 +57,16 @@ El desarrollo de esta web ha seguido los siguientes requisitos de accesibilidad:
 - **Registro**: Formulario de registro con validaciones.
 
 ## Tecnologías Utilizadas
-- HTML5 y CSS3
+- HTML5 , CSS3 y JAVASCRIPT
 - Bootstrap para estilos y diseño responsive
 - Etiquetas ARIA para mejorar la accesibilidad
+- Modal de registro exitoso
+- Tooltips para mejorar la accesibilidad
 
 ## Validación de Accesibilidad
 Se ha utilizado las siguientes herramientas para comprobar la accesibilidad de la web:
 - Lighthouse
+- NVDA
 
 Se han corregido los problemas detectados para cumplir con los estándares.
 
