@@ -273,6 +273,14 @@ text-decoration: none;
 #registrateAqui:hover {
     color: rgb(84, 84, 172, 0.8);
 }
+/* Añadimos el color rgb(84, 84, 172,0.8) a nuestro id recuperarContraseña. */
+#recuperarContraseña {
+    color: rgb(84, 84, 172);
+}
+/* Añadimos el color rgb(84, 84, 172,0.8) a nuestro id recuperarContraseña al hacer hover. */
+#recuperarContraseña:hover {
+    color: rgb(84, 84, 172, 0.8);
+}
 
 /* Añadimos el color rgb(84, 84, 172,0.8) a nuestro li. */
 #enlaces li a {
