@@ -42,8 +42,6 @@ El desarrollo de esta web ha seguido los siguientes requisitos de accesibilidad:
 |           ├── qiyi-o2-1x1x1.webp
 |           ├── qiyi-qiyuan-s3-4x4.webp
 |           ├── qiyi-skewb-qicheng-stickerless.webp
-|   ├── js/
-|           ├── script.js
 │── /documentacion
 │   ├── P7DIW.pdf
 │── README.md
