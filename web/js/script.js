@@ -1,4 +1,4 @@
-/* Script de validación de usuario  */
+/* Script de validación de usuario.  */
 function validarUsuario() {
     const usuarioInput = document.getElementById("usuario");
     const errorSpan = document.getElementById("usuario-error");
@@ -13,7 +13,7 @@ function validarUsuario() {
     }
 }
 
-/* Script de validación de contraseña */
+/* Script de validación de contraseña. */
 function validarContraseña() {
     const contraseñaInput = document.getElementById("contraseña");
     const errorSpan = document.getElementById("contraseña-error");
@@ -28,7 +28,7 @@ function validarContraseña() {
     }
 }
 
-/* Script de validación de correo */
+/* Script de validación de correo. */
 function validarCorreo() {
     const correoInput = document.getElementById("correo");
     const errorSpan = document.getElementById("correo-error");
@@ -43,7 +43,7 @@ function validarCorreo() {
     }
 }
 
-/* Script de validación de fecha de nacimiento*/
+/* Script de validación de fecha de nacimiento. */
 function validarFechaNacimiento() {
     const fechaInput = document.getElementById("fecha-nacimiento");
     const errorSpan = document.getElementById("fecha-error");
@@ -73,7 +73,7 @@ function validarFechaNacimiento() {
     }
 }
 
-/* Script de validación de telefono móvil */
+/* Script de validación de telefono móvil. */
 function validarTelefono() {
     const telefonoInput = document.getElementById("telefono");
     const errorSpan = document.getElementById("telefono-error");
@@ -88,8 +88,8 @@ function validarTelefono() {
     }
 }
 
-/* Script para habilitar o deshabilitar el botón */
-function validarFormulario() {
+/* Script para habilitar o deshabilitar el botón de Registrar. */
+function validarFormularioRegistro() {
     const errorSpans = document.querySelectorAll("span[id$='-error']");
     const botonRegistro = document.getElementById("registro-btn");
 
@@ -97,13 +97,23 @@ function validarFormulario() {
 
     botonRegistro.disabled = hayErrores;
 }
-document.addEventListener("input", validarFormulario);
-document.addEventListener("DOMContentLoaded", validarFormulario);
+document.addEventListener("input", validarFormularioRegistro);
+document.addEventListener("DOMContentLoaded", validarFormularioRegistro);
+
+/* Script para habilitar o deshabilitar el botón de Iniciar sesión. */
+function validarFormularioLogin() {
+    const errorSpans = document.querySelectorAll("span[id$='-error']");
+    const botonRegistro = document.getElementById("login-btn");
+
+    const hayErrores = Array.from(errorSpans).some(span => span.textContent.trim() !== "");
+
+    botonRegistro.disabled = hayErrores;
+}
+document.addEventListener("input", validarFormularioLogin);
+document.addEventListener("DOMContentLoaded", validarFormularioLogin);
 
 
-
-
-    /* Activar tooltips */
+    /* Activar tooltips. */
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 
