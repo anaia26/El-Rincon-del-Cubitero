@@ -113,7 +113,26 @@ document.addEventListener("input", validarFormularioLogin);
 document.addEventListener("DOMContentLoaded", validarFormularioLogin);
 
 
+
+
     /* Activar tooltips. */
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 
+
+
+
+    /* Script del Modal de registro. */
+    document.addEventListener("DOMContentLoaded", function () {
+        const formulario = document.getElementById("formularioRegistro");
+        const modalExito = new bootstrap.Modal(document.getElementById("modalExito"));
+
+        formulario.addEventListener("submit", function (event) {
+            event.preventDefault();
+            modalExito.show();
+        });
+
+        document.getElementById("modalExito").addEventListener("hidden.bs.modal", function () {
+            formulario.reset();
+        });
+    });

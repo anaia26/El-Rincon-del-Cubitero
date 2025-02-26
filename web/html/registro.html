@@ -74,7 +74,7 @@
                 <div class="form-container p-4">
                     <h1 class="text-center mb-4">Regístrate</h1>
                     <p title="Campo obligatorio" class="text-muted">* Campo obligatorio</p>
-                    <form>
+                    <form id="formularioRegistro">
                         <!-- Usuario -->
                         <div class="mb-3">
                             <label title="Usuario" for="usuario" class="form-label">*Usuario:</label>
@@ -94,7 +94,8 @@
 
                         <!-- Correo electrónico -->
                         <div class="mb-3">
-                            <label title="Correo electrónico" for="correo" class="form-label">*Correo electrónico:</label>
+                            <label title="Correo electrónico" for="correo" class="form-label">*Correo
+                                electrónico:</label>
                             <input type="email" class="form-control" id="correo" oninput="validarCorreo()" required
                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Ejemplo: usuario@correo.com">
                             <span id="correo-error" aria-live="assertive" style="color: red;"></span>
@@ -108,21 +109,24 @@
 
                         <!-- Primer apellido -->
                         <div class="mb-3">
-                            <label title="Primer apellido" for="primer-apellido" class="form-label">Primer apellido:</label>
+                            <label title="Primer apellido" for="primer-apellido" class="form-label">Primer
+                                apellido:</label>
                             <input type="text" class="form-control" id="primer-apellido"
                                 title="Ingrese su primer apellido">
                         </div>
 
                         <!-- Segundo apellido -->
                         <div class="mb-3">
-                            <label title="Segundo apellido" for="segundo-apellido" class="form-label">Segundo apellido:</label>
+                            <label title="Segundo apellido" for="segundo-apellido" class="form-label">Segundo
+                                apellido:</label>
                             <input type="text" class="form-control" id="segundo-apellido"
                                 title="Ingrese su segundo apellido">
                         </div>
 
                         <!-- Fecha de nacimiento -->
                         <div class="mb-3">
-                            <label title="Fecha de nacimiento" for="fecha-nacimiento" class="form-label">*Fecha de nacimiento:</label>
+                            <label title="Fecha de nacimiento" for="fecha-nacimiento" class="form-label">*Fecha de
+                                nacimiento:</label>
                             <input type="date" class="form-control" id="fecha-nacimiento"
                                 oninput="validarFechaNacimiento()" required data-bs-toggle="tooltip"
                                 data-bs-placement="top" title="Ingrese su fecha de nacimiento">
@@ -157,6 +161,26 @@
             </div>
         </div>
     </main>
+
+    <!-- Modal de éxito -->
+    <div class="modal fade" id="modalExito" tabindex="-1" aria-labelledby="modalExitoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalExitoLabel">¡Registro exitoso! 👍</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Tu registro se ha completado correctamente.</p>
+                    <p>🧊¡Bienvenido a El Rincón del Cubitero!🧊</p>
+                </div>
+                <div class="modal-footer">
+                    <button title="Cerrar" type="button" class="btn" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer id="footer" class="d-flex justify-content-center flex-column align-items-center">
         <p class="text-center text-white m-2 mt-4">Página realizada por Ana Iglesias y Diego Coello</p>
@@ -184,7 +208,7 @@
         </div>
     </footer>
 
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/script.js"></script>
 </body>
