@@ -81,6 +81,22 @@
                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Usuario">
                             <span id="usuario-error" aria-live="assertive" style="color: red;"></span>
                         </div>
+                        <!-- Script de validación de usuario.  -->
+                        <script>
+                            function validarUsuario() {
+                                const usuarioInput = document.getElementById("usuario");
+                                const errorSpan = document.getElementById("usuario-error");
+                                const usuarioRegex = /^[a-zA-Z0-9_]{4,}$/;
+
+                                if (usuarioInput.value.trim() === "") {
+                                    errorSpan.textContent = "El nombre de usuario no puede estar vacío.";
+                                } else if (!usuarioRegex.test(usuarioInput.value)) {
+                                    errorSpan.textContent = "El usuario debe tener al menos 4 caracteres y solo puede contener letras, números y '_'.";
+                                } else {
+                                    errorSpan.textContent = "";
+                                }
+                            }
+                        </script>
                         <!-- Contraseña -->
                         <div class="mb-3">
                             <label for="contraseña" class="form-label">Contraseña</label>
@@ -88,6 +104,22 @@
                                 required data-bs-toggle="tooltip" data-bs-placement="top" title="Contraseña">
                             <span id="contraseña-error" aria-live="assertive" style="color: red;"></span>
                         </div>
+                        <!-- Script de validación de contraseña. -->
+                        <script>
+                            function validarContraseña() {
+                                const contraseñaInput = document.getElementById("contraseña");
+                                const errorSpan = document.getElementById("contraseña-error");
+                                const contraseñaRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+                                if (contraseñaInput.value.trim() === "") {
+                                    errorSpan.textContent = "La contraseña no puede estar vacía.";
+                                } else if (!contraseñaRegex.test(contraseñaInput.value)) {
+                                    errorSpan.textContent = "La contraseña debe tener al menos 8 caracteres, incluir una letra, un número y un carácter especial (@$!%*?&).";
+                                } else {
+                                    errorSpan.textContent = "";
+                                }
+                            }
+                        </script>
                         <!-- Botón de registro -->
                         <div class="d-grid">
                             <button title="Iniciar sesión" id="login-btn" type="submit" class="btn" disabled>Iniciar
