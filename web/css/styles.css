@@ -4,6 +4,11 @@ body {
     background-color: white;
 }
 
+/* Le damos a los H1 un tamaño de fuente predefinido de 2 rem. */
+h1 {
+    font-size: 2rem;
+}
+
 /* En el id logoRiendaHeades añadimos las propiedades width con 3.125rem y height con 3.125rem. */
 #logoTiendaHeader {
     width: 3.125rem;/*50px*/
