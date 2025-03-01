@@ -43,7 +43,17 @@ El desarrollo de esta web ha seguido los siguientes requisitos de accesibilidad:
 |           ├── qiyi-qiyuan-s3-4x4.webp
 |           ├── qiyi-skewb-qicheng-stickerless.webp
 │── /documentacion
-│   ├── P7DIW.pdf
+│   ├── P7CoelloDiego_IglesiasAna.pdf
+│── /capturas
+│   ├── Contacto.png
+│   ├── Detalle_producto_2.png
+│   ├── Detalle_producto_3.png
+│   ├── Detalle_producto.png
+│   ├── Inicio.png
+│   ├── Login.png
+│   ├── Mapa_web.png
+│   ├── Productos.png
+│   ├── Registro.png
 │── README.md
 ```
 
@@ -53,6 +63,8 @@ El desarrollo de esta web ha seguido los siguientes requisitos de accesibilidad:
 - **Detalle de tres productos**: Página individual del producto con información detallada, imagen ampliada y botón de "Añadir al carrito" (sin funcionalidad real).
 - **Contacto**: Formas de contacto incluyendo dirección, teléfono, redes sociales y un mapa.
 - **Registro**: Formulario de registro con validaciones.
+- **Login**: Formulario de login.
+- **Mapa web**: Mapa de ubicaciones de la web.
 
 ## Tecnologías Utilizadas
 - HTML5 , CSS3 y JAVASCRIPT
@@ -65,6 +77,7 @@ El desarrollo de esta web ha seguido los siguientes requisitos de accesibilidad:
 Se ha utilizado las siguientes herramientas para comprobar la accesibilidad de la web:
 - Lighthouse
 - NVDA
+- Wave
 
 Se han corregido los problemas detectados para cumplir con los estándares.
 
